@@ -1,0 +1,350 @@
+:root{
+    --cor: black;
+    --cor0: #000e29;
+    --cor1: #012D7D;
+    --cor2: #cec224;
+    --cor3: #F2EFC2;
+    --cor4: #d6d3ad;
+    --cor5: #f0f1f6;
+    --cor6: #ffff;
+    --cor7: rgba(255, 255, 255, 0.699);
+    --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--font);
+}
+
+#menu{
+    display: flex;
+    margin: 20px;
+}
+.mimg{
+    color: var(--cor1);
+    width: 30px;
+    height: 30px;
+}
+
+.header{
+    display: inline-flex;
+    background-color: var(--cor6);
+    margin: 0px;
+}
+.link{
+    display: none;
+}
+.logo{
+    display: flex;
+    width: 70px;
+    height: 70px;
+}
+
+.intro{
+    background-image: url('../imagens/inicio img/santoss.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    padding: 5px;
+}
+.cemu{
+    color: var(--cor6);
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.lema{
+    color: var(--cor3);
+    font-weight: 500;
+    font-size: 10px;
+    font-style: italic;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.nossaescola{
+    font-size: 7px;
+    text-align: center; 
+    margin: 10px;   
+}
+.text{
+    padding: 20px;
+    font-size: 3em;
+    color: var(--cor1);
+}
+.container{
+    background-color: var(--cor1);
+    padding: 20px;
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+}
+.div2{
+    display: flex;
+    flex-direction: row;
+}
+.div3{
+    display: flex;
+    flex-direction: row;
+}
+.textdiv1{
+    display: block;
+    font-size: 7px;
+    color: var(--cor6);
+    text-align: justify;
+    text-indent: 20px;
+    width: 80%;
+    margin: auto;
+}
+.textdiv2{
+    display: block;
+    font-size: 7px;
+    color: var(--cor6);
+    text-align: justify;
+    text-indent: 20px;
+    width: 80%;
+    margin: auto;
+}
+.textdiv3{
+    display: block;
+    font-size: 7px;
+    color: var(--cor6);
+    text-align: justify;
+    text-indent: 20px;
+    width: 80%;
+    margin: auto;
+}
+.hdiv{
+    color: var(--cor4);
+    text-align: center;
+    padding: 10px;
+}
+.img1{
+    display: none;
+}
+.img2{
+    display: none;
+}
+.img3{
+    display: none;
+}
+
+.fam{
+    font-size: 7px;
+    background-color: var(--cor5);
+    padding: 20px;
+    text-align: center;
+}
+.h1fam{
+    color: var(--cor1);
+    padding: 20px;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.team{
+    margin: 20px;
+}
+.nome{
+    font-weight: 500;
+    color: var(--cor1);
+    padding-bottom: 10px;
+}
+.mission{   
+    font-size: 7px; 
+    background-color: var(--cor3);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+.mtext{
+    color: var(--cor0);
+    text-align: justify;
+    text-indent: 30px;
+    width: 200px;
+}
+.mh{
+    font-weight: 500;
+    color: var(--cor1);
+    padding-bottom: 20px;
+}
+.cont1{
+    margin: 30px;
+    text-align: left;
+}
+.cont2{
+    margin: 30px;
+    text-align: left;
+}
+.li{
+    font-weight: 500;
+    color: var(--cor0);
+}
+
+.about{
+    font-size: 7px;
+    display: block;
+    text-align: center;
+}
+.adiv{
+    text-indent: 30px;
+    text-align: justify;
+    width: 350px;
+    margin: auto;
+    padding: 10px;
+}
+.ha{
+    color: var(--cor1);
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.linkpage{
+    background-color: var(--cor1);
+    padding: 10px;
+}
+.divlink{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.lh{
+    font-size: 7px;
+    color: var(--cor3);
+    text-align: center;
+}
+.courses{
+    display: block;
+    font-size: 7px;
+    width: 150px;
+    margin: 20px;
+    height: 160px;
+    background-color: var(--cor6);
+}
+.visits{
+    display: block;
+    width: 150px;
+    margin: 20px;
+    height: 160px;
+    background-color: var(--cor6);
+}
+.history{
+    display: block;
+    width: 150px;
+    margin: 20px;
+    height: 160px;
+    background-color: var(--cor6);
+}
+.activ{
+    display: block;
+    width: 150px;
+    margin: 20px;
+    height: 160px;
+    background-color: var(--cor6);
+}
+.img{
+    display: flex;
+    padding: 30px;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.h{
+    color: var(--cor1);
+    text-align: center;
+    font-size: 7px;
+}
+.vermais{
+    font-size: 7px;
+    background-color: var(--cor1);
+    color: var(--cor6);
+    border-style: hidden;
+    width: 90%;
+    height: 20px;
+    margin: 10px;
+}
+.vermais:hover{
+    transition: 0.4s;
+    background-color: var(--cor6);
+    color: var(--cor1);
+    font-weight: 500;
+    border: solid 1px var(--cor1);
+}
+.al{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer{
+    background-color: var(--cor0);
+    color: var(--cor6);
+    padding: 10px;
+    text-align: center;
+    font-size: 7px;
+}
+.ctt{
+    font-weight: 500;
+}
+.flink{
+    text-decoration: none;
+    color: var(--cor6);
+}
+.flink:hover{
+    color: var(--cor3);
+    text-decoration: underline;
+}
+.back{
+    color: var(--cor6);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px;
+}
+.back:hover{
+    text-decoration: underline;
+    color: var(--cor3);
+}
+
+#contatos{
+    margin: 10px;
+}
+.location{
+    font-weight: bold;
+    margin: 10px;
+}
+.phoneimg{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
+.faceimg{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
+.mail{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
+.phoneimg:hover{
+    border: var(--cor7);
+}
+.faceimg:hover{
+    border: var(--cor7);
+}
+.mail:hover{
+    border: var(--cor7);
+}
