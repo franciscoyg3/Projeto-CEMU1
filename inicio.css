@@ -19,8 +19,10 @@
 
 #menu{
     display: flex;
-    margin: 20px;
-    margin-left: 20px;
+    width: 30px;
+    height: 35px;
+    margin: auto;
+    padding-left: 200px;
 }
 .mimg{
     width: 30px;
@@ -37,7 +39,7 @@
 }
 .dlg{
     display: flex;
-    margin-left: 150px;
+    margin-left: 50px;
 }
 .logo{
     display: flex;
@@ -54,7 +56,7 @@
 }
 .cemu{
     color: var(--cor6);
-    font-size: 13px;
+    font-size: 11px;
     margin-left: 10px;
     margin-top: 25px;
 }
@@ -68,13 +70,13 @@
 }
 
 .nossaescola{
-    font-size: 7px;
+    font-size: 10px;
     text-align: center; 
     margin: 10px;   
 }
 .text{
     padding: 20px;
-    font-size: 3em;
+    font-size: 11px;
     color: var(--cor1);
 }
 .container{
@@ -95,7 +97,7 @@
 }
 .textdiv1{
     display: block;
-    font-size: 7px;
+    font-size: 10px;
     color: var(--cor6);
     text-align: justify;
     text-indent: 20px;
@@ -104,7 +106,7 @@
 }
 .textdiv2{
     display: block;
-    font-size: 7px;
+    font-size: 10px;
     color: var(--cor6);
     text-align: justify;
     text-indent: 20px;
@@ -113,7 +115,7 @@
 }
 .textdiv3{
     display: block;
-    font-size: 7px;
+    font-size: 10px;
     color: var(--cor6);
     text-align: justify;
     text-indent: 20px;
@@ -136,12 +138,13 @@
 }
 
 .fam{
-    font-size: 7px;
+    font-size: 10px;
     background-color: var(--cor5);
     padding: 20px;
     text-align: center;
 }
 .h1fam{
+    font-size: 11px;
     color: var(--cor1);
     padding: 20px;
 }
@@ -160,7 +163,7 @@
     padding-bottom: 10px;
 }
 .mission{   
-    font-size: 7px; 
+    font-size: 10px; 
     background-color: var(--cor3);
     display: flex;
     flex-direction: row;
@@ -194,7 +197,7 @@
 }
 
 .about{
-    font-size: 7px;
+    font-size: 10px;
     display: block;
     text-align: center;
     margin: 20px;
@@ -224,13 +227,13 @@
     justify-content: center;
 }
 .lh{
-    font-size: 7px;
+    font-size: 10px;
     color: var(--cor3);
     text-align: center;
 }
 .courses{
     display: block;
-    font-size: 7px;
+    font-size: 10px;
     width: 150px;
     margin: 20px;
     height: 160px;
@@ -267,10 +270,11 @@
 .h{
     color: var(--cor1);
     text-align: center;
-    font-size: 7px;
+    font-size: 10px;
 }
 .vermais{
-    font-size: 7px;
+    display: block;
+    font-size: 10px;
     background-color: var(--cor1);
     color: var(--cor6);
     border-style: hidden;
@@ -296,7 +300,7 @@ footer{
     color: var(--cor6);
     padding: 10px;
     text-align: center;
-    font-size: 7px;
+    font-size: 10px;
 }
 .ctt{
     font-weight: 500;
@@ -329,20 +333,20 @@ footer{
 }
 .phoneimg{
     border-radius: 50%;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     margin: 5px;
 }
 .faceimg{
     border-radius: 50%;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     margin: 5px;
 }
 .mail{
     border-radius: 50%;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     margin: 5px;
 }
 .phoneimg:hover{
