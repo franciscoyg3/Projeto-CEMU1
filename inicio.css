@@ -42,7 +42,7 @@
 }
 
 .intro{
-    background-image: url('../imagens/inicio img/santoss.jpg');
+    background-image: url('imagens/inicio img/santoss.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 150px;
